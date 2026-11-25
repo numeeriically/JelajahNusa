@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +17,13 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Linking  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
@@ -33,11 +37,13 @@
   <body>
     <div>
       <nav
-        class="container navbar fixed-top navbar-expand-lg py-2 px-5 mt-4 rounded-5"
+        class="container navbar fixed-top navbar-expand-lg py-2 px-5 mt-4 rounded-5 fw-semibold"
       >
         <div class="container">
           <a class="navbar-brand" href="#"
-            ><span>Jelajah<span>Nusa</span></span></a
+            ><span style="color: #193652"
+              >Jelajah<span style="color: #0288a2">Nusa</span></span
+            ></a
           >
           <button
             class="navbar-toggler"
@@ -71,12 +77,162 @@
           </div>
         </div>
       </nav>
-
-      <section class="hero-section">
-        <div class="hero-box" style="background-color: red" id="hero-box">
-          <img id="hero-box-img" />
+      <section
+        class="hero-section d-flex align-items-center justify-content-start"
+      >
+        <div class="hero-content container fw-semibold">
+          <h1 class="hero-title text-start fw-bold mb-3">
+            Jelajahi Keindahan Indonesia Bersama
+            <span style="color: #ff8c00">Jelajah</span
+            ><span style="color: #0288a2">Nusa</span>
+          </h1>
+          <p class="text-title text-start fw-light mb-5">
+            Dan pantai Bali hingga lautan Raja Ampat, kami merancang perjalanan
+            yang nyaman, aman dan penuh cerita
+          </p>
+          <div class="cta-area">
+            <a
+              href="#"
+              class="cta-explore text-start text-decoration-none px-3 py-3 rounded-3"
+              id="cta-1"
+              >Explore Destinations</a
+            >
+            <a
+              href="#"
+              class="cta-viewpackages text-start text-decoration-none px-3 py-3 rounded-3"
+              id="cta-2"
+              >View Packages</a
+            >
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image1.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image2.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image3.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image4.jpg&quot;);
+              "
+            ></div>
+          </div>
         </div>
       </section>
+
+      <section class="about-section container py-5">
+        <div class="box-grid row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="about-grid row g-3">
+              <div class="col-md-6">
+                <div
+                  class="primary-box h-100 p-4 rounded-4 bg-light border"
+                  style="min-height: 400px"
+                >
+                  Primary Box
+                </div>
+              </div>
+              <div class="col-md-6 d-flex flex-column gap-3">
+                <div
+                  class="secondary-box flex-fill p-4 rounded-4 bg-light border"
+                >
+                  Box 2
+                </div>
+                <div
+                  class="secondary-box flex-fill p-4 rounded-4 bg-light border"
+                >
+                  Box 3
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="about-info col-lg-6 d-flex justify-content-start"
+            id="about-info"
+          >
+            <div class="about-info-content">
+              <span class="tagline-about"> TENTANG KAMI </span>
+              <h2 class="about-title">Perjalanan yang dirancang dengan hati</h2>
+              <p class="about-text">
+                JelajahNusa adalah agen perjalanan berbasis di-Bogor yang mem
+                bantu Anda menemukan destinasi terbaik Nusantara dengan pemandu
+                lokal, harga transparan, dan layanan yang ramah.
+              </p>
+              <ul class="ab-us-quality">
+                <li class="quality-ab">
+                  <span class="customicon-ab">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                  <div class="quality-ab-txt">
+                    <h3 class="title-quality">Pemandu Lokal</h3>
+                    <p class="text-quality">
+                      Berpengalaman di-setiap destinasi
+                    </p>
+                  </div>
+                </li>
+                <li class="quality-ab">
+                  <span class="customicon-ab">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                  <div class="quality-ab-txt">
+                    <h3 class="title-quality">Aman & Terpercaya</h3>
+                    <p class="text-quality">
+                      Perjalanan terjamin dari awal hingga akhir
+                    </p>
+                  </div>
+                </li>
+                <li class="quality-ab">
+                  <span class="customicon-ab">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                  <div class="quality-ab-txt">
+                    <h3 class="title-quality">Fleksibel</h3>
+                    <p class="text-quality">
+                      Jadwal dan paket bisa disesuaikan
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="destination-section container">
+        <div class="section-title">
+          <span class="section-category">DESTINASI</span>
+          <h2 class="primary-section-title">Explore Popular Destinations</h2>
+          <p class="primary-section-text">Empat tempat yang paling sering dipilih para pelancong kami.</p>
+        </div>
+        
+      </section>
     </div>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        speed: 500,
+        centeredSlides: true,
+        simulateTouch: false,
+        allowTouchMove: false,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+        },
+      });
+    </script>
   </body>
 </html>
