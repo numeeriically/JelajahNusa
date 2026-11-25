@@ -80,7 +80,7 @@
       <section
         class="hero-section d-flex align-items-center justify-content-start"
       >
-        <div class="hero-content container fw-semibold">
+        <div class="hero-content container fw-semibold" id="hero-section">
           <h1 class="hero-title text-start fw-bold mb-3">
             Jelajahi Keindahan Indonesia Bersama
             <span style="color: #ff8c00">Jelajah</span
@@ -93,13 +93,13 @@
           <div class="cta-area">
             <a
               href="#"
-              class="cta-explore text-start text-decoration-none px-3 py-3 rounded-3"
+              class="cta-explore text-start text-decoration-none px-3 py-3 rounded-3 fw-normal"
               id="cta-1"
               >Explore Destinations</a
             >
             <a
               href="#"
-              class="cta-viewpackages text-start text-decoration-none px-3 py-3 rounded-3"
+              class="cta-viewpackages text-start text-decoration-none px-3 py-3 rounded-3 fw-normal"
               id="cta-2"
               >View Packages</a
             >
@@ -135,7 +135,7 @@
         </div>
       </section>
 
-      <section class="about-section container py-5">
+      <section class="about-section container py-5" id="about-section">
         <div class="box-grid row g-5 align-items-center">
           <div class="col-lg-6">
             <div class="about-grid row g-3">
@@ -144,19 +144,19 @@
                   class="primary-box h-100 p-4 rounded-4 bg-light border"
                   style="min-height: 400px"
                 >
-                  Primary Box
+                  
                 </div>
               </div>
               <div class="col-md-6 d-flex flex-column gap-3">
                 <div
                   class="secondary-box flex-fill p-4 rounded-4 bg-light border"
                 >
-                  Box 2
+                  
                 </div>
                 <div
                   class="secondary-box flex-fill p-4 rounded-4 bg-light border"
                 >
-                  Box 3
+                  
                 </div>
               </div>
             </div>
@@ -165,44 +165,44 @@
             class="about-info col-lg-6 d-flex justify-content-start"
             id="about-info"
           >
-            <div class="about-info-content">
-              <span class="tagline-about"> TENTANG KAMI </span>
-              <h2 class="about-title">Perjalanan yang dirancang dengan hati</h2>
+            <div class="about-info-content bg-body-primary rounded-5 px-4 py-5">
+              <span class="tagline-about" style="color: #9bb2b7;"> TENTANG KAMI </span>
+              <h2 class="about-title fw-bold">Perjalanan yang dirancang dengan hati</h2>
               <p class="about-text">
                 JelajahNusa adalah agen perjalanan berbasis di-Bogor yang mem
                 bantu Anda menemukan destinasi terbaik Nusantara dengan pemandu
                 lokal, harga transparan, dan layanan yang ramah.
               </p>
-              <ul class="ab-us-quality">
-                <li class="quality-ab">
-                  <span class="customicon-ab">
+              <ul class="ab-us-quality list-unstyled d-flex flex-column gap-3 mb-0">
+                <li class="quality-ab d-flex align-items-start gap-3 shadow p-2 mb-2 bg-body-tertiary rounded">
+                  <span class="customicon-ab p-1 lex-shrink-0 rounded-circle">
                     <i class="fa-solid fa-location-dot"></i>
                   </span>
                   <div class="quality-ab-txt">
-                    <h3 class="title-quality">Pemandu Lokal</h3>
-                    <p class="text-quality">
+                    <h3 class="title-quality fw-bold fs-5">Pemandu Lokal</h3>
+                    <p class="text-quality mb-0">
                       Berpengalaman di-setiap destinasi
                     </p>
                   </div>
                 </li>
-                <li class="quality-ab">
-                  <span class="customicon-ab">
-                    <i class="fa-solid fa-location-dot"></i>
+                <li class="quality-ab d-flex align-items-start gap-3 shadow p-2 mb-2 bg-body-tertiary rounded">
+                  <span class="customicon-ab p-1 flex-shrink-0 rounded-circle">
+                    <i class="fa-solid fa-shield"></i>  
                   </span>
                   <div class="quality-ab-txt">
-                    <h3 class="title-quality">Aman & Terpercaya</h3>
-                    <p class="text-quality">
+                    <h3 class="title-quality fw-bold fs-5">Aman & Terpercaya</h3>
+                    <p class="text-quality mb-0">
                       Perjalanan terjamin dari awal hingga akhir
                     </p>
                   </div>
                 </li>
-                <li class="quality-ab">
-                  <span class="customicon-ab">
-                    <i class="fa-solid fa-location-dot"></i>
+                <li class="quality-ab d-flex align-items-start gap-3 shadow p-2 mb-2 bg-body-tertiary rounded">
+                  <span class="customicon-ab p-1 flex-shrink-0 rounded-circle">
+                    <i class="fa-regular fa-clock"></i>
                   </span>
                   <div class="quality-ab-txt">
-                    <h3 class="title-quality">Fleksibel</h3>
-                    <p class="text-quality">
+                    <h3 class="title-quality fw-bold fs-5">Fleksibel</h3>
+                    <p class="text-quality mb-0">
                       Jadwal dan paket bisa disesuaikan
                     </p>
                   </div>
@@ -214,12 +214,23 @@
       </section>
 
       <section class="destination-section container">
-        <div class="section-title">
-          <span class="section-category">DESTINASI</span>
+        <div class="section-title text-center">
+          <span class="section-category fw-light" style="color: #9bb2b7;">DESTINASI</span>
           <h2 class="primary-section-title">Explore Popular Destinations</h2>
           <p class="primary-section-text">Empat tempat yang paling sering dipilih para pelancong kami.</p>
         </div>
-        
+        <div class="card-flex d-flex">
+          <div class="destination-card bg-body-tertiary">
+            <div class="card-destination-img">
+              <span class="span-category-place rounded-5 px-2 py-2"></span>
+              <img>
+            </div>
+            <div class="card-destination-info">
+              <h3 class="destination-card-title"></h3>
+              <p class="destination-card-text"></p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
     <script>
