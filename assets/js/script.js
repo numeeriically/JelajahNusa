@@ -1,6 +1,10 @@
 // Calling Elements
 const heroBox = document.getElementById('hero-box-img');
+<<<<<<< HEAD
 const templateCard = document.querySelector('.destination-card-col')
+=======
+const templateCard = document.querySelector('.destination-card')
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
 const destinationSection = document.querySelector('.card-flex')
 
 // ============================================================================================ //
@@ -24,15 +28,22 @@ if (heroBox) {
     heroBox.src = dataImg[0];
 }
 
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
 const dataDstBox = [
     {
         id: 1,
         articleCategory: "Bali",
         articleTitle: "Bali",
         articleText: "Pantain berpasir, sawah yang terasering, dan budaya yang hangat di Pulau Dewata",
+<<<<<<< HEAD
         articleImage: "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+=======
+        articleImage: ""
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
     },
 
     {
@@ -40,7 +51,11 @@ const dataDstBox = [
         articleCategory: "Papua Barat",
         articleTitle: "Raja Ampat",
         articleText: "Gugusan pulau karang dengan surga menyelam kelas dunia.",
+<<<<<<< HEAD
         articleImage: "https://images.unsplash.com/photo-1703769605297-cc74106244d9?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+=======
+        articleImage: ""
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
     },
 
     {
@@ -48,7 +63,11 @@ const dataDstBox = [
         articleCategory: "Jawa Timur",
         articleTitle: "Bromo",
         articleText: "Matahari terbit di atas lautan pasir dan kawah yang berkabut",
+<<<<<<< HEAD
         articleImage: "https://images.unsplash.com/flagged/photo-1557804521-990f076ccb96?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+=======
+        articleImage: ""
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
     },
 
     {
@@ -56,7 +75,11 @@ const dataDstBox = [
         articleCategory: "NTT",
         articleTitle: "Labuan Bajo",
         articleText: "Pintu gerbang Pulau Komodo, dengan pelayaran dan senja memukau",
+<<<<<<< HEAD
         articleImage: "https://images.unsplash.com/photo-1619880889144-d6e252999afa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+=======
+        articleImage: ""
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
     }
 ]
 
@@ -83,6 +106,7 @@ if (destinationSection && templateCard) {
 
         if (index > 0) destinationSection.appendChild(articleCard);
     });
+<<<<<<< HEAD
 }
 
 // Contact Form Validation & Submission Feedback
@@ -111,4 +135,6 @@ if (contactForm) {
         contactForm.reset();
         contactForm.classList.remove("was-validated");
     });
+=======
+>>>>>>> 6379b26e126ed8bef4c699d84dca08662997af02
 }
