@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +17,13 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Linking  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
@@ -28,16 +32,18 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js" defer></script>
-    <title>Document</title>
+    <title>JelajahNusa.id</title>
   </head>
   <body>
     <div>
       <nav
-        class="container navbar fixed-top navbar-expand-lg py-2 px-5 mt-4 rounded-5"
+        class="container navbar fixed-top navbar-expand-lg py-2 px-5 mt-4 rounded-5 fw-semibold"
       >
         <div class="container">
           <a class="navbar-brand" href="#"
-            ><span>Jelajah<span>Nusa</span></span></a
+            ><span style="color: #193652"
+              >Jelajah<span style="color: #0288a2">Nusa</span></span
+            ></a
           >
           <button
             class="navbar-toggler"
@@ -71,12 +77,452 @@
           </div>
         </div>
       </nav>
-
-      <section class="hero-section">
-        <div class="hero-box" style="background-color: red" id="hero-box">
-          <img id="hero-box-img" />
+      <section
+        class="hero-section d-flex align-items-center justify-content-start overflow-hidden"
+      >
+        <div class="hero-content container fw-semibold" id="hero-section">
+          <h1 class="hero-title text-start fw-bold mb-3">
+            Jelajahi Keindahan Indonesia Bersama
+            <span style="color: #e87a00">Jelajah</span
+            ><span style="color: #0288a2">Nusa</span>
+          </h1>
+          <p class="text-title text-start fw-normal mb-5">
+            Dan pantai Bali hingga lautan Raja Ampat, kami merancang perjalanan
+            yang nyaman, aman dan penuh cerita
+          </p>
+          <div class="cta-area d-flex flex-wrap gap-3">
+            <a
+              href="#"
+              class="cta-explore text-start text-decoration-none px-4 py-3 rounded-3 fw-semibold"
+              id="cta-1"
+              >Explore Destinations</a
+            >
+            <a
+              href="#"
+              class="cta-viewpackages text-start text-decoration-none px-4 py-3 rounded-3 fw-semibold border border-2"
+              id="cta-2"
+              >View Packages</a
+            >
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image1.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image2.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image3.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;assets/images/hero-div-slide-image4.jpg&quot;);
+              "
+            ></div>
+          </div>
         </div>
       </section>
+
+      <section class="about-section container py-5" id="about-section">
+        <div class="box-grid row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="about-grid row g-3">
+              <div class="col-md-6">
+                <div
+                  class="primary-box h-100 p-4 rounded-4 bg-light border"
+                  style="min-height: 400px"
+                ></div>
+              </div>
+              <div class="col-md-6 d-flex flex-column gap-3">
+                <div
+                  class="secondary-box flex-fill p-4 rounded-4 bg-light border"
+                ></div>
+                <div
+                  class="secondary-box flex-fill p-4 rounded-4 bg-light border"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="about-info col-lg-6 d-flex justify-content-start"
+            id="about-info"
+          >
+            <div class="about-info-content bg-body-secondary rounded-5 px-4 py-5">
+              <span class="tagline-about" style="color: #9bb2b7">
+                TENTANG KAMI
+              </span>
+              <h2 class="about-title fw-bold pt-2">
+                Perjalanan yang dirancang dengan hati
+              </h2>
+              <p class="about-text py-3">
+                JelajahNusa adalah agen perjalanan berbasis di-Bogor yang mem
+                bantu Anda menemukan destinasi terbaik Nusantara dengan pemandu
+                lokal, harga transparan, dan layanan yang ramah.
+              </p>
+              <ul
+                class="ab-us-quality list-unstyled d-flex flex-column gap-3 mb-0"
+              >
+                <li
+                  class="quality-ab d-flex align-items-start gap-3 shadow-sm p-3 mb-2 bg-body-tertiary rounded"
+                >
+                  <span class="customicon-ab p-1 lex-shrink-0 rounded-circle">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                  <div class="quality-ab-txt">
+                    <h3 class="title-quality fw-bold fs-5">Pemandu Lokal</h3>
+                    <p class="text-quality mb-0">
+                      Berpengalaman di-setiap destinasi
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="quality-ab d-flex align-items-start gap-3 shadow-sm p-3 mb-2 bg-body-tertiary rounded"
+                >
+                  <span class="customicon-ab p-1 flex-shrink-0 rounded-circle">
+                    <i class="fa-solid fa-shield"></i>
+                  </span>
+                  <div class="quality-ab-txt">
+                    <h3 class="title-quality fw-bold fs-5"> 
+                      Aman & Terpercaya
+                    </h3>
+                    <p class="text-quality mb-0">
+                      Perjalanan terjamin dari awal hingga akhir
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="quality-ab d-flex align-items-start gap-3 shadow-sm p-3 mb-2 bg-body-tertiary rounded"
+                >
+                  <span class="customicon-ab p-1 flex-shrink-0 rounded-circle">
+                    <i class="fa-regular fa-clock"></i>
+                  </span>
+                  <div class="quality-ab-txt">
+                    <h3 class="title-quality fw-bold fs-5">Fleksibel</h3>
+                    <p class="text-quality mb-0">
+                      Jadwal dan paket bisa disesuaikan
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="destination-section container py-5" id="destinations">
+        <div class="section-title text-center mb-5">
+          <span
+            class="section-category fw-semibold text-uppercase d-inline-block mb-2"
+            style="color: #0288a2"
+            >DESTINASI</span
+          >
+          <h2 class="primary-section-title fw-bold mb-3" style="color: #193652">
+            Explore Popular Destinations
+          </h2>
+          <p class="primary-section-text text-secondary mx-auto mb-0">
+            Empat tempat yang paling sering dipilih para pelancong kami.
+          </p>
+        </div>
+        <div class="card-flex row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 g-md-4">
+          <div class="col destination-card-col">
+            <div
+              class="destination-card h-100 d-flex flex-column bg-white rounded-4 shadow-sm border overflow-hidden"
+            >
+              <div class="card-destination-img position-relative overflow-hidden">
+                <span
+                  class="span-category-place position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fw-semibold"
+                ></span>
+                <img class="w-100 h-100 object-fit-cover" />
+              </div>
+              <div class="card-destination-info d-flex flex-column flex-grow-1 p-3 p-md-4">
+                <h3 class="destination-card-title fw-bold mb-2"></h3>
+                <p class="destination-card-text text-secondary flex-grow-1 mb-3"></p>
+                <a
+                  href="#"
+                  class="detail-card-destination text-decoration-none fw-semibold mt-auto d-inline-flex align-items-center gap-2"
+                  >Lihat selanjutnya <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section container py-5" id="contact-us">
+        <!-- Heading Section -->
+        <div class="section-title text-center mb-5">
+          <span
+            class="section-category fw-semibold text-uppercase d-inline-flex align-items-center gap-2 mb-2"
+            style="color: #0288a2"
+          >
+            <i class="fa-solid fa-headset"></i> Hubungi Kami
+          </span>
+          <h2 class="contact-title fw-bold mb-3" style="color: #193652">
+            Ada Pertanyaan? Kami Siap Membantu
+          </h2>
+          <p class="contact-desc text-secondary mx-auto mb-0">
+            Punya pertanyaan seputar destinasi wisata, paket perjalanan, atau
+            konsultasi itinerary JelajahNusa? Kirimkan pesan Anda kepada tim
+            kami.
+          </p>
+        </div>
+
+        <!-- Contact Content -->
+        <div class="row g-4 g-lg-5 align-items-stretch">
+          <!-- Info Column -->
+          <div class="col-lg-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1 g-3 h-100">
+              <div class="col">
+                <div
+                  class="contact-info-card d-flex align-items-center gap-3 p-3 bg-white rounded-4 shadow-sm border h-100"
+                >
+                  <span
+                    class="contact-icon-box d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                  </span>
+                  <div class="min-w-0">
+                    <div class="small text-secondary fw-semibold">
+                      Email Resmi
+                    </div>
+                    <a
+                      href="mailto:support@jelajahnusa.id"
+                      class="fw-bold text-decoration-none text-break"
+                      style="color: #193652"
+                    >
+                      support@jelajahnusa.id
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="contact-info-card d-flex align-items-center gap-3 p-3 bg-white rounded-4 shadow-sm border h-100"
+                >
+                  <span
+                    class="contact-icon-box d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                  >
+                    <i class="fa-solid fa-phone"></i>
+                  </span>
+                  <div class="min-w-0">
+                    <div class="small text-secondary fw-semibold">
+                      Telepon / WhatsApp
+                    </div>
+                    <a
+                      href="tel:+6281234567890"
+                      class="fw-bold text-decoration-none"
+                      style="color: #193652"
+                    >
+                      +62 812-3456-7890
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="contact-info-card d-flex align-items-center gap-3 p-3 bg-white rounded-4 shadow-sm border h-100"
+                >
+                  <span
+                    class="contact-icon-box d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                  >
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                  <div class="min-w-0">
+                    <div class="small text-secondary fw-semibold">
+                      Alamat Kantor
+                    </div>
+                    <div class="fw-bold" style="color: #193652">
+                      Jl. Poras No. 07, Bogor, Jawa Barat, Indonesia
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="contact-info-card d-flex align-items-center gap-3 p-3 bg-white rounded-4 shadow-sm border h-100"
+                >
+                  <span
+                    class="contact-icon-box d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                  >
+                    <i class="fa-solid fa-clock"></i>
+                  </span>
+                  <div class="min-w-0">
+                    <div class="small text-secondary fw-semibold">
+                      Jam Layanan
+                    </div>
+                    <div class="fw-bold" style="color: #193652">
+                      Senin - Jumat, 08.00 - 17.00 WIB
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="col-lg-7">
+            <div
+              class="formulir-box bg-white p-4 p-md-5 rounded-4 shadow-sm border h-100"
+            >
+              <h3 class="fw-bold fs-4 mb-2" style="color: #193652">
+                Kirim Pesan Langsung
+              </h3>
+              <p class="text-secondary small mb-4">
+                Isi formulir berikut dan tim kami akan membalas dalam 1x24 jam
+                kerja.
+              </p>
+
+              <form id="contactForm" class="needs-validation" novalidate>
+                <div class="row g-3 mb-3">
+                  <div class="col-md-6">
+                    <label
+                      for="contactName"
+                      class="form-label fw-semibold small"
+                      style="color: #193652"
+                      >Nama Lengkap</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control bg-body-tertiary"
+                      id="contactName"
+                      placeholder="Masukkan nama Anda"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Mohon masukkan nama lengkap Anda.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label
+                      for="contactEmail"
+                      class="form-label fw-semibold small"
+                      style="color: #193652"
+                      >Alamat Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control bg-body-tertiary"
+                      id="contactEmail"
+                      placeholder="nama@email.com"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Mohon masukkan alamat email yang valid.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label
+                    for="contactSubject"
+                    class="form-label fw-semibold small"
+                    style="color: #193652"
+                    >Subjek Pesan</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control bg-body-tertiary"
+                    id="contactSubject"
+                    placeholder="Contoh: Tanya paket wisata Raja Ampat"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Mohon isi subjek pesan Anda.
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <label
+                    for="contactMessage"
+                    class="form-label fw-semibold small"
+                    style="color: #193652"
+                    >Pesan Anda</label
+                  >
+                  <textarea
+                    class="form-control bg-body-tertiary"
+                    id="contactMessage"
+                    rows="4"
+                    placeholder="Tuliskan pesan atau pertanyaan Anda di sini..."
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">
+                    Mohon tuliskan pesan Anda sebelum mengirim.
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-contact w-100 py-3 rounded-pill fw-semibold text-white d-inline-flex align-items-center justify-content-center gap-2"
+                >
+                  Kirim Pesan Sekarang <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+                <div
+                  id="contactSuccessAlert"
+                  class="alert alert-success d-none mt-3 mb-0"
+                  role="alert"
+                ></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="footer-section" style="background-color: #ffffff">
+        <div
+          class="footer-container container mb-0 p-4 p-md-5 d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-4"
+        >
+          <div class="footer-content fw-bold fs-4 d-grid">
+            <span style="color: #193652"
+              >Jelajah<span style="color: #0288a2">Nusa</span></span
+            >
+            <p class="footer-text fw-light fs-6 mb-0">
+              Menemani setiap langkah Anda dalam perjalanan Nusantara yang nyaman
+              dan penuh cerita
+            </p>
+          </div>
+          <div
+            class="nav-link-footer row row-cols-2 row-cols-sm-auto g-2 g-sm-3 flex-shrink-0"
+          >
+            <a href="#" class="nav-footer col fw-semibold">Home</a>
+            <a href="#" class="nav-footer col fw-semibold">About</a>
+            <a href="#" class="nav-footer col fw-semibold">Packages</a>
+            <a href="#" class="nav-footer col fw-semibold">Destinations</a>
+            <a href="#" class="nav-footer col fw-semibold">Contact</a>
+          </div>
+        </div>
+        <hr class="container border border-1 border-secondary opacity-50 d-flex align-items-center justify-content-center m-auto mb-3">
+        <div class="copyright-area container text-center py-4"><span class="copyright-footer fw-light fs-6 text-start"><i class="fa-regular fa-copyright"></i> 2026 JelajahNusa Jl. Poras, No. 07, Bogor.</span></div>
+        
+      </footer>
     </div>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        speed: 500,
+        centeredSlides: true,
+        simulateTouch: false,
+        allowTouchMove: false,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+        },
+      });
+    </script>
   </body>
 </html>
